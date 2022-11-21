@@ -30,3 +30,9 @@ response = urllib.request.urlopen(request)
 # 获取响应的数据
 content = response.read().decode('utf-8')
 print(content)
+print(type(content))
+
+# 字符串-->json对象
+import json
+obj = json.loads(content)
+print(obj)
