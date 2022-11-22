@@ -6,7 +6,7 @@
 # import urllib.parse
 #
 # # urlencode: 多个参数的时候
-# # https://www.baidu.com/s?wd=周杰伦&sex=男
+# # https://www.baidu.com/s?wd=周杰伦&sex=男&location=中国台湾省
 # data = {
 #     'wd': '周杰伦',
 #     'sex': '男',
@@ -28,9 +28,10 @@ data = {
 }
 
 data = urllib.parse.urlencode(data)
+
 # 请求资源路径
 url = base_url + data
-
+print(url)
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
 }

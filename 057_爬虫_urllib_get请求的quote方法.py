@@ -22,6 +22,7 @@ headers = {
 name = urllib.parse.quote('周杰伦')
 # print(name)
 url = url + name
+# print(url)
 # 请求对象定制
 request = urllib.request.Request(url=url, headers=headers)
 
