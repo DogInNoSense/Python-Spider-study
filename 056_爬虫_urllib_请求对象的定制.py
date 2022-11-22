@@ -24,6 +24,7 @@ headers = {
 }
 # 请求对象的定制
 request = urllib.request.Request(url=url, headers=headers)  # 参数顺序的问题，需要关键字传参
+# 获取响应数据
 response = urllib.request.urlopen(request)
 content = response.read().decode('utf-8')
 print(content)
