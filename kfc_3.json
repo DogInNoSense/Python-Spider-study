@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 34
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 21,
+      "storeName": "临沂华润万象汇",
+      "addressDetail": "华润万象汇第三层L363号商铺",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 22,
+      "storeName": "北城大润发",
+      "addressDetail": "北城新区天津路与汶河路交汇西南角（大润发入口）",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 23,
+      "storeName": "北城大润发",
+      "addressDetail": "北城新区天津路与汶河路交汇西南角（大润发入口）",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 24,
+      "storeName": "苏宁广场餐厅",
+      "addressDetail": "红旗路1号金鼎大厦一层拐角区域",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 25,
+      "storeName": "苏宁广场餐厅",
+      "addressDetail": "红旗路1号金鼎大厦一层拐角区域",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 26,
+      "storeName": "临沂滨河万达餐厅",
+      "addressDetail": "蒙山大道与滨河路交汇处西南角1021号",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 27,
+      "storeName": "临沂滨河万达餐厅",
+      "addressDetail": "蒙山大道与滨河路交汇处西南角1021号",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 28,
+      "storeName": "临沂滨河万达餐厅",
+      "addressDetail": "蒙山大道与滨河路交汇处西南角1021号",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 29,
+      "storeName": "临沂滨河万达餐厅",
+      "addressDetail": "蒙山大道与滨河路交汇处西南角1021号",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 30,
+      "storeName": "临沂大学",
+      "addressDetail": "滨河路北段西侧、临沂大学东门华仁高尔夫商业广场一层",
+      "pro": "Wi-Fi",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    }
+  ]
+}

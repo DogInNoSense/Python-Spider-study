@@ -1,0 +1,41 @@
+{
+  "Table": [
+    {
+      "rowcount": 34
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 31,
+      "storeName": "颐高上海街",
+      "addressDetail": "沂蒙路颐高上海街购物广场一层L1-31A铺位",
+      "pro": "店内参观,手机点餐",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 32,
+      "storeName": "颐高上海街",
+      "addressDetail": "沂蒙路颐高上海街购物广场一层L1-31A铺位",
+      "pro": "店内参观,手机点餐",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 33,
+      "storeName": "兰陵万达广场",
+      "addressDetail": "兰陵路与崇文路交汇",
+      "pro": "手机点餐",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 34,
+      "storeName": "兰陵万达广场",
+      "addressDetail": "兰陵路与崇文路交汇",
+      "pro": "手机点餐",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "Table": [
+    {
+      "rowcount": 34
+    }
+  ],
+  "Table1": [
+    {
+      "rownum": 11,
+      "storeName": "蒙山大道餐厅",
+      "addressDetail": "蒙山大道与北园路交汇处大润发一层",
+      "pro": "Wi-Fi",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 12,
+      "storeName": "平邑浚河路餐厅",
+      "addressDetail": "平邑浚河路和汉阙路交汇处华百购物中心一、二层",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 13,
+      "storeName": "常华餐厅",
+      "addressDetail": "中山北路1号一层、二层",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 14,
+      "storeName": "君悦(员工招募中...）",
+      "addressDetail": "沂南县人民路以北、历山路以西阳都国际一层的房产",
+      "pro": "Wi-Fi,点唱机",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 15,
+      "storeName": "齐鲁吾悦（员工招募中）",
+      "addressDetail": "8151105--济南路与孝河路交汇齐鲁园广场一层",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 16,
+      "storeName": "开元国际",
+      "addressDetail": "兰陵县中兴路东段开元国际商城一、二层",
+      "pro": "Wi-Fi",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 17,
+      "storeName": "临沂新城吾悦",
+      "addressDetail": "新城吾悦广场1069号商铺",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 18,
+      "storeName": "泰盛广场肯德基",
+      "addressDetail": "通达路与解放路交汇处东北角泰盛购物广场(中汇广场)负一层、一层",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 19,
+      "storeName": "琅琊王路",
+      "addressDetail": "解放路西段与临西七路交汇处华强购物广场112-117",
+      "pro": "Wi-Fi,点唱机,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    },
+    {
+      "rownum": 20,
+      "storeName": "临沂北城万达",
+      "addressDetail": "8191167--北城万达广场内一楼南端（2号门正对过）",
+      "pro": "Wi-Fi,店内参观",
+      "provinceName": "山东省",
+      "cityName": "临沂市"
+    }
+  ]
+}
