@@ -4,6 +4,8 @@
 # @File : 073_爬虫_解析_jsonpath
 # @Project : spider-study
 
+# 资源下载链接
+# https://blog.csdn.net/luxideyao/article/details/77802389
 import json
 import jsonpath
 
@@ -50,4 +52,3 @@ print('-' * 10)
 # 过滤哪本书超过了10元
 over_list = jsonpath.jsonpath(obj, '$..book[?(@.price>10)]')
 print(over_list)
-
