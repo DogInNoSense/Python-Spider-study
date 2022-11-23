@@ -75,8 +75,8 @@ data_post = {
     '__VIEWSTATE': viewstate,
     '__VIEWSTATEGENERATOR': viewstategenerator,
     'from': 'http://so.gushiwen.cn/user/collect.aspx',
-    'email': '19841358929',
-    'pwd': '444455555.',
+    'email': '手机号码',
+    'pwd': '密码',
     'code': code_name,
     'denglu': '登录'
 }
