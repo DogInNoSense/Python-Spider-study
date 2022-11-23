@@ -6,6 +6,8 @@
 import urllib.request
 from bs4 import BeautifulSoup
 
+# https://www.starbucks.com.cn/menu/
+
 url = 'https://www.starbucks.com.cn/menu/'
 
 response = urllib.request.urlopen(url)
