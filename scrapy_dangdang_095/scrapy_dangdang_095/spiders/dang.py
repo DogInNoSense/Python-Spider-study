@@ -1,10 +1,13 @@
 import scrapy
+from scrapy_dangdang_095.items import ScrapyDangdang095Item
 
 
 class DangSpider(scrapy.Spider):
     name = 'dang'
-    allowed_domains = ['http://category.dangdang.com/cp01.27.02.00.00.00.html']
+    allowed_domains = ['category.dangdang.com']
     start_urls = ['http://category.dangdang.com/cp01.27.02.00.00.00.html']
+    base_url = 'http://category.dangdang.com/pg'
+    page = 1
 
     def parse(self, response):
         print('********************************************')
@@ -28,3 +31,21 @@ class DangSpider(scrapy.Spider):
             name = li.xpath('.//img/@alt').extract_first()
             price = li.xpath('.//p[@class="price"]/span[1]/text()').extract_first()
             print(src, name, price)
+            book = ScrapyDangdang095Item(src=src, name=name, price=price)
+            yield book
+
+        # 每一页的执行逻辑一样
+        # 第二页
+        # http://category.dangdang.com/pg2-cp01.27.02.00.00.00.html
+        # 第三页
+        # http://category.dangdang.com/pg3-cp01.27.02.00.00.00.html
+        # 第四页
+        # http://category.dangdang.com/pg4-cp01.27.02.00.00.00.html
+
+        if self.page < 100:
+            self.page += 1
+            url = self.base_url + str(self.page) + '-cp01.27.02.00.00.00.html'
+
+            # 调用parse方法
+            # scrapy.Request就是scrapy的get请求
+            yield scrapy.Request(url=url, callback=self.parse)
