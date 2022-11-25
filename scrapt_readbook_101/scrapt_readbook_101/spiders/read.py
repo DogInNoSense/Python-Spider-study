@@ -13,7 +13,7 @@ class ReadSpider(CrawlSpider):
     rules = (
         Rule(LinkExtractor(allow=r'/book/1188_\d+\.html'),
              callback='parse_item',
-             follow=False),
+             follow=True),
     )
 
     def parse_item(self, response):

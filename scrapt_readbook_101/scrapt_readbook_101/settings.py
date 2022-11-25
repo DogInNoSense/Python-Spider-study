@@ -58,11 +58,23 @@ ROBOTSTXT_OBEY = True
 # EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 # }
+# My sql 数据库
+DB_HOST = '192.168.8.4'
+# 端口号是整数
+DB_PORT = 3306
+DB_USER = 'vulclone'
+DB_PASSWORD = '1234'
+DB_NAME = 'spider02'
+DB_CHARSET = 'utf8'
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+
 ITEM_PIPELINES = {
     'scrapt_readbook_101.pipelines.ScraptReadbook101Pipeline': 300,
+    # 配置mysql管道  MysqlPipeline
+    'scrapt_readbook_101.pipelines.MysqlPipeline': 301,
+
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
