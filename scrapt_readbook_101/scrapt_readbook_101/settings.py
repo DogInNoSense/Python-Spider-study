@@ -64,7 +64,7 @@ DB_HOST = '192.168.8.4'
 DB_PORT = 3306
 DB_USER = 'vulclone'
 DB_PASSWORD = '1234'
-DB_NAME = 'spider02'
+DB_NAME = 'spider01'
 DB_CHARSET = 'utf8'
 
 # Configure item pipelines
